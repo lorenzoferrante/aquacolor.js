@@ -1,0 +1,261 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700); /* Roboto */
+@import url(http://fonts.googleapis.com/css?family=Lato:300, 400); /* Lato */
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300); /* Source Code Pro */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126 
+ License: none (public domain)
+ */
+ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address,big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+ display: block;
+ }
+ body {
+  line-height: 1;
+ }
+ ol, ul {
+ list-style: none;
+ }/n blockquote, q {
+ quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ content: "";
+ content: none;
+ }
+ table {
+ border-collapse: collapse;
+  border-spacing: 0;
+ }
+
+/* OWN CSS */
+
+body { font-family: 'Lato', sans-serif; font-size: 100%; vertical-align: baseline; }
+
+header { 
+	font-family: 'Roboto', sans-serif;
+	width: 100%; 
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 100;
+}
+
+ul.color {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+ul.color li { height: auto; padding: 6em 0; }
+ul.color .one { background-color: #123456; }
+ul.color .two { background-color: #37599D; }
+ul.color .three { background-color: #6E8FD0; }
+ul.color .four { background-color: #444954; }
+ul.color .five { background-color: #CC6D2B; }
+ul.color .six { background-color: #CC7F5A; }
+ul.color .seven { background-color: #A27F66; }
+ul.color .eight { background-color: #A26C66; }
+ul.color .nine { background-color: #C9766D; }
+ul.color .ten { background-color: #A35047; }
+ul.color .eleven { background-color: #DB594A; }
+ul.color .twelve { background-color: #B9AF3F; }
+ul.color .thirteen { background-color: #E6DC75; }
+ul.color .fourteen { background-color: #EFDD24; }
+ul.color .fifteen { background-color: #5CAB62; }
+ul.color .sixteen { background-color: #85CB8B; }
+ul.color .seventeen { background-color: #5A925E; }
+ul.color .eighteen { background-color: #3DBD7D; }
+ul.color .nineteen { background-color: #9FBBAD; }
+ul.color .twenty { background-color: #91A299; }
+ul.color .twentyone { background-color: #626966; }
+ul.color .twentytwo { background-color: #2A2D2C; }
+span.color-code { color: #F5F8D6; font-family: 'Source Code Pro', sans-serif; font-size: 0.7em; letter-spacing: 0; }
+
+ul.download.top { background-color: #A9BDD2; -webkit-animation: none; margin-top: 2em; margin-bottom: -1.7em; display: none; }
+ul.download.top li { }
+ul.download.top a { border: 2px solid #fff; color: #fff; -webkit-animation: none; }
+ul.download.top a:hover { -webkit-animation: none; color: #9FBBAD; background-color: #fff;}
+ul.download {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 10px;
+	padding: 5em 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+ul.download li { font-size: 20px;  font-weight: 400;  }
+ul.download li#author { letter-spacing: 1px; color: #91A299; }
+ul.download a { 
+    line-height: 1.375;
+    padding: 3px 11px 7px 11px;
+    letter-spacing: 1px;
+    color: #f35626;
+    cursor: pointer;
+    -webkit-animation: hue 60s infinite linear;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.download a:hover { color: #9FBBAD; -webkit-animation: hue 3s infinite linear; }
+
+div#container {
+	background-color: #123456;
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: 100;
+}
+
+div.color-cont {
+	width: 150px;
+	height: 50px;
+	padding: 10px;
+	background-color: #99D6EA;
+	float: left;
+}
+
+.color-cont.two { background-color: #123456; }
+.color-cont.three { background-color: #37599D; }
+.color-cont.four { background-color: #3BD0B3; }
+.color-cont.five { background-color: #DB6C51; }
+.color-cont.six { background-color: #C3505B; }
+.color-cont.seven { background-color: #CFB743; }
+.color-cont.eight { background-color: #5CAB62; }
+
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: 90px;
+	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#27748C,#99D6EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 20s infinite linear;
+	/*-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;*/
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 0;
+}
+
+p.sub {
+	-webkit-animation: none;
+	background-image: none;
+	color: #7b8993;
+	font-size: 1rem;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+@media (min-width: 650px) {
+  .mega {
+    font-size: 6rem;
+    line-height: 1;
+  }
+  .sub.mega {
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  ul.download.top {
+  	display: block;
+  }
+  ul.download li {
+  	display: inline;
+  }
+  ul.download a { 
+	border: 2px solid #f35626;
+    line-height: 1.375;
+    padding: 3px 11px 7px 11px;
+    letter-spacing: 1px;
+    color: #f35626;
+    cursor: pointer;
+    -webkit-animation: hue 60s infinite linear;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  ul.download a:hover {
+  	background-color: #f35626;
+  	color: #fff;
+  }
+}
+
+
+/* ANIMATION */
+
+/* Header Animation */
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@-moz-keyframes list {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@-o-keyframes list {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@keyframes list {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
