@@ -3,7 +3,6 @@
 <b>A simple javascript and CSS and JS framework with a new color palette for the web. Easy to install, easy to use, beautiful to watch. Checkout [Aquarello WebSite](http://lorenzoferrante.github.io/aquarello/)!</b>
 
 <h2>How to use</h2>
-------------------------
 
 For use it download or clone the repo and just put the link to the CSS file before the closing </body> tag of your html page.
 
