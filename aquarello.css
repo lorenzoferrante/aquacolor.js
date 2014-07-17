@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* --- Aquarello.js --------------*/
+/* --- © 2014 Lorenzo Ferrante ---*/
+/* Licensed under the MIT license */
+
+/* Color */
+.elegant { color: #123456 !important; }
+.jeans { color: #37599D !important; }
+.violet { color: #6E8FD0 !important; }
+.bold { color: #444954 !important; }
+.mandarine { color: #CC6D2B !important; }
+.wall { color: #CC7F5A !important; }
+.emot { color: #A27F66 !important; }
+.off { color: #A26C66 !important; }
+.almost { color: #C9766D !important; }
+.blood { color: #A35047 !important; }
+.red { color: #DB594A !important; }
+.lemonade { color: #B9AF3F !important; }
+.quiet { color: #E6DC75 !important; }
+.canarine { color: #EFDD24 !important; }
+.peas { color: #5CAB62 !important; }
+.tennis { color: #85CB8B !important; }
+.grass { color: #5A925E !important; }
+.water { color: #3DBD7D !important; }
+.extint { color: #9FBBAD !important; }
+.gray { color: #91A299 !important; }
+.cloudy { color: #626966 !important; }
+.obscure { color: #2A2D2C !important; }
+
+/* Background-Color */
+.elegant-Bg { background-color: #123456 !important; }
+.jeans-Bg { background-color: #37599D !important; }
+.violet-Bg { background-color: #6E8FD0 !important; }
+.bold-Bg { background-color: #444954 !important; }
+.mandarine-Bg { background-color: #CC6D2B !important; }
+.wall-Bg { background-color: #CC7F5A !important; }
+.emot-Bg { background-color: #A27F66 !important; }
+.off-Bg { background-color: #A26C66 !important; }
+.almost-Bg { background-color: #C9766D !important; }
+.blood-Bg { background-color: #A35047 !important; }
+.red-Bg { background-color: #DB594A !important; }
+.lemonade-Bg { background-color: #B9AF3F !important; }
+.quiet-Bg { background-color: #E6DC75 !important; }
+.canarine-Bg { background-color: #EFDD24 !important; }
+.peas-Bg { background-color: #5CAB62 !important; }
+.tennis-Bg { background-color: #85CB8B !important; }
+.grass-Bg { background-color: #5A925E !important; }
+.water-Bg { background-color: #3DBD7D !important; }
+.extint-Bg { background-color: #9FBBAD !important; }
+.gray-Bg { background-color: #91A299 !important; }
+.cloudy-Bg { background-color: #626966 !important; }
+.obscure-Bg { background-color: #2A2D2C !important; }
