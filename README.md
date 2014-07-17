@@ -2,7 +2,10 @@
 
 <b>A simple javascript and CSS and JS framework with a new color palette for the web. Easy to install, easy to use, beautiful to watch. Checkout [Aquarello WebSite](http://lorenzoferrante.github.io/aquarello/)!</b>
 
+It's a super light weight framework. The `minified` CSS file weights just 1.735 kb!
+
 <h2>How to use</h2>
+------------------------
 
 For use it download or clone the repo and just put the link to the CSS file before the closing </body> tag of your html page.
 
